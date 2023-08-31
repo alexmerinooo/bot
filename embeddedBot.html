@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Embedded Bot</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+
+   
+
+    function loadScript(src, callback) {
+            var s,
+            r,
+            t;
+            r = false;
+            s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.src = src;
+        
+            s.onload = s.onreadystatechange = function() {
+                if ( !r && (!this.readyState || this.readyState == 'complete') )
+                {
+                    r = true;
+                    callback();
+                }
+            };
+        
+            t = document.getElementsByTagName('script')[0];
+            t.parentNode.insertBefore(s, t);
+    }
+    
+
+    //PROD
+    //loadScript("https://webchatsstorage.blob.core.windows.net/fsnbgfi/webchat.js", function(){
+    //    loadScript("https://webchatsstorage.blob.core.windows.net/fsnbgfi/embeddedBot.js", function(){
+	    loadScript("https://nosotros.gfi.es/chatbot/webchat.js", function(){
+        loadScript("https://nosotros.gfi.es/chatbot/embeddedBot.js", function(){
+            embeddedBot.loaduuid(
+                //"IK8tLkkd-IQ.Dd3vHu0ts9ubOziacAeehJHs1UolWisr6vvgwj5VWpk", 
+                //"MXtBMU4HFlc.OiiOJXmcdUovAF-EEasyLgm0bRA0mwoL_tMzRzoMJjI",
+                "db379af8-72f4-48d5-805b-c9b57bc339e4",
+		"Chatbot People & Talent",
+                "avatar.jpg",
+                "avatar.jpg"
+                );
+        });
+    });
+    </script>
+</body>
+</html>

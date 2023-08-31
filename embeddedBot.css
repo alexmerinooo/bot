@@ -1,0 +1,429 @@
+html, body {
+    height:100%;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+}
+
+.css-o3xlyv.markdown img, [data-css-o3xlyv].markdown img {
+    width: 250px;
+}
+
+#botWelcome {
+    background: white;
+    position: relative;
+    padding: 20px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#BotTitle{
+     border-radius:16px 16px 0px 0px;    
+}
+
+#webchat {
+    display: block;
+    background-color: white;
+    width: 40vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 16px 16px;
+}
+
+#webchatBorder p {
+    font-size: 16px;
+}
+
+.markdown.css-o3xlyv  *{
+    font-size: 16px
+}
+
+.css-4x1yn3 *{
+    font-size: 16px;
+}
+
+#webchatBorder input{
+    font-size: 16px;
+
+}
+
+.bubbleImg{
+    width: auto;
+    height: 75px;
+    /* margin-top: 4px; 
+    margin-left: 5px;*/
+    clip-path: circle(38px at center);
+}
+
+.bubbleDiv{
+    position:fixed; 
+    right:35px; 
+    bottom:35px; 
+    width:75px; 
+    height:75px; 
+    background-color: #ffffff; 
+    border-radius:50%; 
+    box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+#closeIcon{
+    width:18px; 
+    position:absolute; 
+    top:9px; 
+    right:10px;
+}
+
+#gfilogo{
+    height:22px;
+    position:absolute;
+    top:7px;
+    right:58px;
+}
+
+#closeIcon:hover{
+    cursor:pointer;
+}
+
+#maximizeIcon{
+    width:20px; 
+    position:absolute; 
+    top:8px; 
+    right:36px;
+}
+
+#maximizeIcon:hover{
+    cursor:pointer;
+}
+
+#minimizeIcon{
+    width:20px; 
+    position:absolute; 
+    top:11px; 
+    right:36px;
+}
+
+#minimizeIcon:hover{
+    cursor:pointer;
+}
+
+#reloadIcon{
+    fill:white;
+    width:20px; 
+    position:absolute; 
+    top:11px; 
+    right:62px;
+}
+
+#reloadIcon:hover{
+    fill: white;
+    cursor:pointer;
+}
+#reloadIcon:hover path{
+    fill: white;
+}
+
+
+.css-1wegtiu, [data-css-1wegtiu]
+{
+    overflow:hidden;
+    touch-action: manipulation;
+}
+
+
+#webchatBorder {
+    display: none;
+    background-color: #005573;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    z-index:10000;
+}
+
+.css-eycyw2 > .main, [data-css-eycyw2] > .main{
+    border-top: 2px solid #00aa9b;
+}
+
+#botname {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: #00aa9b;
+    color: #556269;
+    vertical-align: central;
+    text-align: left;
+}
+
+#webchat > * {
+    width: 100%;
+    height: 100%
+    max-width: 500px;
+}
+
+#showBotButton {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#activeUser{
+    margin-top:10px;
+}
+
+.ac-pushButton {
+    cursor: pointer;
+}
+
+h3{
+    font-size:24px;
+
+}
+
+h4{
+    font-size:18px;
+}
+
+.css-1t62idy{
+        border-radius: 0 0 16px 16px;
+}
+
+.css-eycyw2 .css-1882x3w .css-1l9a57c{
+        border-radius: 16px!important;
+}
+
+.css-eycyw2 > .main {
+    border-radius: 0px 0px 16px 16px;
+}
+
+/*@@media screen and (max-width: 900px) {
+
+    #webchatBorder {
+        bottom:0px!important;
+        right:0px!important;
+        
+        width: 90vw!important;
+        height: 100vh!important;
+    }
+
+    #webchat {
+        width: 100vw!important;
+        height: calc(100vh - 42px)!important;
+    }
+
+    .hide-small-screens {
+        display: none;
+    }
+}*/
+
+.incentiveBubble {
+    width: 375px;
+    /*margin: 50px auto;**/
+    border: 4px solid #005573;
+    padding: 12px;
+    text-align: center;
+    font-weight: 900;
+    color: #005573;
+    font-family: arial;
+    position: absolute;
+    right:100px;
+    top:8px;
+    background-color: #fff;
+    z-index:10000;
+  }
+
+  .sb12:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #005573;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -23px;
+  }
+  
+  .sb12:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -17px;
+  }
+
+@media only screen and (max-width: 500px) {
+    #webchatBorder {
+        position: fixed!important;
+        top:0px!important;
+        right:0px!important;
+        width: 100vw!important;
+        height: 100%!important;
+        border-radius: 0!important
+
+    }
+
+    #BotTitle{
+        position:fixed!important;
+        top:0px;
+        left:0px;
+        height:34px; 
+        width:100vw;
+        padding-left:10px; 
+        padding-top:3px; 
+        padding-right:10px;
+        z-index:1000;
+        border-radius: 0px!important;
+    }
+
+    #maximizeIcon {
+        pointer-events: none;
+    }
+
+    #minimizeIcon {
+        pointer-events: none;
+    }
+
+    #webchat {
+        width: 100vw!important;
+        height: 100%!important;
+    }
+
+    .main {
+        border-bottom-right-radius: 0!important;
+        border-bottom-left-radius: 0!important;
+    }
+
+    .hide-small-screens {
+        display: none;
+    }
+}
+    
+#welcomelogo {
+    max-width:100%;
+    height:auto;
+}
+
+div.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #005573;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #005573;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+
+div.button1:hover{
+    color:#ffffff;
+    background-color:#005573;
+}
+
+.select1 {
+    font-size: 16px;
+    width: 256px;
+    margin: 0 0.3em 0.3em 0;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #005573;
+    color: #005573;
+    border-radius: 8px;
+}
+
+.select1:hover {
+    color: #ffffff;
+    background-color: #005573;
+}
+
+/*
+         .wc-message.wc-message-from-bot{
+            background: red;
+            padding-left: 50px;
+        }
+
+        */
+
+
+#welcomeBorder{
+    height:100%;
+    background-color:#005573;
+    max-width:512px;
+    padding-top:150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#BotName2{
+    margin:0;
+    text-align:left;
+    padding-left:6px;
+    color:#ffffff;
+    line-height:30px;
+    font-weight:300;
+    font-family: 'Roboto', sans-serif;
+}
+
+#toggleBtn{
+    
+}
+
+#toggleBtn:hover{
+    cursor:pointer;
+    //box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+li > .css-s9z2dv{
+    background-color:#ffffff!important;
+}
+
+li > .css-12whbku{
+    background-color:#ffffff!important;
+}
+
+.css-1wegtiu > ul, [data-css-1wegtiu] > ul{
+
+}
+
+.ac-pushButton{
+    border: 2px solid #005573!important;
+    border-radius: 16px;
+}
+
+.css-18or53d .ac-pushButton{
+    color:#005573!important;
+}
+
+.css-4x1yn3 > button{
+    color:#005573!important;
+    border-color:#005573!important;
+}
+
+.ac-image{
+    border-radius:16px!important;
+}
+
+.css-1t62idy.css-1chkok{
+    border-radius: 16px;
+}
+
+.ac-textBlock{
+    white-space:normal!important;
+}
